@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>H.Song's Page</title>
-		<link href="css/bootstrap.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
-        <link href="css/mypage.css" rel="stylesheet">
+		<link href="../static/css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="../static/css/font-awesome/css/font-awesome.css">
+        <link href="../static/css/mypage.css" rel="stylesheet">
 	</head>
     
 	<body>
@@ -24,7 +25,7 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li data-target="#carousel-generic" data-slide-to="0"><a href="#">Profile</a></li>
+					<li data-target="#carousel-generic" data-slide-to="0"><a href="#">About</a></li>
 					<li data-target="#carousel-generic" data-slide-to="1"><a href="#">Experiments</a></li>
 					<li data-target="#carousel-generic" data-slide-to="2"><a href="#">Blog</a></li>
 				</ul>
@@ -56,6 +57,7 @@
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.navbar -->
         </header>
+				
 		<!-- Content -->
 		<div class="container-fluid">
 			<div id="carousel-generic" class="carousel-fluid slide" data-ride="carousel" data-interval="false">
@@ -69,32 +71,45 @@
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner">
 					<div class="item one active">
-                        <div class="carousel-caption">
-                            <h1>Profile</h1>
-                            <p>Blablabla</p>
+						<div class="carousel-caption">
+                            <h2>About me <a href="../static/file/Resume.pdf">(Resume)</a></h2>
+                            
+                            <p>I'm Master student in Illinois Institute of Technology <br>Five years' programmer, thirsty for new technologies and creative ideas</p>
+                            <br>
+                            <h2>Highlight</h2>
+                            <p> 
+Highly self-motivated, analytically minded, troubleshooting skills, cooperative
+& communication skills.</p>
                         </div>
 					</div>
 						
 					<div class="item two">
                         <div class="carousel-caption">
-                            <h1>Experiments</h1>
+                            <h2>Experiments</h2>
                             <p>Blablabla</p>
                         </div>
 					</div>
                     
                     <div class="item three">
                         <div class="carousel-caption">
-                            <h1>Blog</h1>
-                            <p>Blablabla</p>
+                            <h2>Blog</h2>
+                            <p>Comming soon...</p>
                         </div>
 					</div>
 				</div><!-- /.carousel-inner -->
 			</div>
-		</div> <!-- /.jumbotron -->
+		</div> <!-- /.container-fluid -->
 		
+		<!-- footer -->
+        <footer class="bs-footer">
+            <div class="container">
+                <p>© 2014 H.S</p>
+            </div>
+        </footer>
+        
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://code.jquery.com/jquery.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.js"></script>
+		<script src="../static/js/bootstrap.js"></script>
 	</body>
 </html>
