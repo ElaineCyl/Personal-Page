@@ -16,32 +16,57 @@ body {
 }
 
 .two {
-    background: url(../img/background-imager/Elegant_Background-5.jpg) no-repeat center center fixed;
+    background: url(../img/background-imager/Elegant_Background-3.jpg) no-repeat center center fixed;
 }
 
 .three {
-    background: url(../img/background-imager/Elegant_Background-6.jpg) no-repeat center center fixed;
+    background: url(../img/background-imager/Elegant_Background-5.jpg) no-repeat center center fixed;
 }
 
 
 .carousel-caption {
     background-color: transparent;
     position: absolute;
-    left: 1%;
+    left: 40px;
     top: 50px;
     max-width: 50%;
     max-height: 100px;
-    padding: 0 20px;
+    padding: 0px;
     text-align: left;
 }
 .carousel-caption h2 a {
     font-size: 18px;
 }
 
+
+.carousel-inner .row {
+	position: relative;
+	top: 100px;
+	padding: 35px;
+}
+.thumbnail {
+	background-color: rgba(255,255,255,0);
+	border: 0px;
+}
+.thumbnail img {
+	width: 150px;
+	height: 150px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	border-radius: 5px;
+}
+.caption {
+	text-align: center;
+	color: white;
+}
+
+.col-sm-3 {
+	width: 230px;
+}
+
+
 .navbar-rightL:last-child {
     margin-right: 0px;
 }
-
 
 .bs-footer {
     position: absolute;
@@ -51,3 +76,4 @@ body {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
     color: white;
 }
+
